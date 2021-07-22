@@ -1026,7 +1026,7 @@ http://www.tooplate.com/view/2098-health
     }
     #about{
       background-size: cover;
-      background-position: right;
+      background-position: 500px;
     }
   .parrafo p {
       padding-right: 100px;
