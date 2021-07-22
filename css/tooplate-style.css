@@ -1026,7 +1026,8 @@ http://www.tooplate.com/view/2098-health
     }
     #about{
      background-position-x: 70%;
-     backgroun-position-y:-70%; }
+     background-position-y: 10%;
+    background-size: auto; }
   .parrafo p {
       padding-right: 100px;
     }
