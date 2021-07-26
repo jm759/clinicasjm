@@ -374,12 +374,13 @@ http://www.tooplate.com/view/2098-health
 
   .navbar-default .navbar-toggle {
     border: none;
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background: #393939;
+    background: #212165;
     border-color: transparent;
+    width: 25px;
   }
 
   .navbar-default .navbar-toggle:hover,
