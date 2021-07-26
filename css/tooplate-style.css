@@ -1079,7 +1079,9 @@ http://www.tooplate.com/view/2098-health
     .angle-up-btn {
       bottom: 10em;
     }
-  }
+   .team-thumb {
+    margin-bottom: 20px;
+   }
 
   @media only screen and (max-width: 639px) {
     h1 {
