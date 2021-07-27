@@ -1116,6 +1116,8 @@ http://www.tooplate.com/view/2098-health
    .profile figcaption {
     display: block;
    }
+   #content{
+    padding-left: 0px;}
 
   @media only screen and (max-width: 639px) {
     h1 {
