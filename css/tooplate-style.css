@@ -131,11 +131,12 @@ http://www.tooplate.com/view/2098-health
   }
 
   .border-top {
-    border-top: 1px solid #f2f2f2;
+    
     margin-top: 4em;
     padding-top: 2.5em;
+    background-color: #151556;
   }
-
+/*--border-top: 1px solid #f2f2f2;--*/
   .btn-gray {
     background: #393939;
   }
@@ -216,7 +217,7 @@ http://www.tooplate.com/view/2098-health
     height: 100%;
     z-index: 99999;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow:  nowrap;
     justify-content: center;
     align-items: center;
     background: none repeat scroll 0 0 #ffffff;
@@ -258,7 +259,11 @@ http://www.tooplate.com/view/2098-health
       MENU              
   -----------------------------------------*/
   #icon-1{
-    padding-right: 2px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+  }
+  #icon-2{
+    padding-right: 5px;
     padding-bottom: 7px;
   }
   header {
@@ -361,9 +366,10 @@ http://www.tooplate.com/view/2098-health
 
   .navbar-default .navbar-nav > li > a:hover,
   .navbar-default .navbar-nav > li > a:focus {
-    color: #555555;
+    color: #00ACDE;
     background-color: transparent;
   }
+  /*--COLOR:#555555--*/
 
   .navbar-default .navbar-nav > .active > a,
   .navbar-default .navbar-nav > .active > a:hover,
@@ -374,12 +380,13 @@ http://www.tooplate.com/view/2098-health
 
   .navbar-default .navbar-toggle {
     border: none;
-    padding-top: 10px;
+    padding-top: 25px;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background: #393939;
+    background: #212165;
     border-color: transparent;
+    width: 25px;
   }
 
   .navbar-default .navbar-toggle:hover,
@@ -421,8 +428,8 @@ http://www.tooplate.com/view/2098-health
   }
 
   .owl-theme .owl-dots .owl-dot span {
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 10px;
     margin: 5px 7px;
     border: 2px solid #d9d9d9;
     background: transparent;
@@ -472,6 +479,35 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
+
+  #cajaazul{
+    background-color: #212165;
+  }
+  #cajaazul h3{
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 5px;
+  }
+  #cajaazul p{
+    padding-top: 10px;
+  }
+  #cajaazul p,#cajaazul a{
+    color: #8282de;
+  }
+  #cajaroja{
+    background-color: #E30E20;
+  }
+  #cajaroja h3{
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 5px;
+  }
+  #cajaroja p{
+    padding-top: 10px;
+  }
+  #cajaroja p,#cajaroja a{
+    color: #ef9ca3;
+  }
 
   #about {
     background: url('../images/about-bg.jpg') no-repeat top center;
@@ -567,7 +603,10 @@ http://www.tooplate.com/view/2098-health
     transform: translateY(0px);
     top: -22em;
   }
-
+  .iconarea{
+    display: inline;
+    padding-bottom: 10px;
+  }
 
 
   /*---------------------------------------
@@ -756,17 +795,19 @@ http://www.tooplate.com/view/2098-health
       APPOINTMENT             
   -----------------------------------------*/
 
+  .form-control {
+    color: #a1a2a2;}
   #appointment {
     padding-top: 100px;
   }
 
   #appointment label {
-    color: #393939;
+    color: #212165;
     font-weight: 500;
   }
 
   #appointment .form-control {
-    background: #f9f9f9;
+    background: #F5FDFF;
     border: none;
     border-radius: 3px;
     box-shadow: none;
@@ -789,7 +830,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   #appointment button#cf-submit:hover {
-    background: #393939;
+    background: #53cdf1;
     color: #ffffff;
   }
 
@@ -797,16 +838,30 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
      FOOTER              
   -----------------------------------------*/
+#espace{
+  margin-bottom: 20px;
+ }
+
+ #content{
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  padding-left: 90px;
+  padding-bottom: 20px;
+ }
 
   
+  .textfooter p {
+    color: #8282de;
+  }
   p#telefone {
     color: #ffffff;
   }
   footer {
     padding-top: 80px;
-    padding-bottom: 40px;
     background-color: #212165;
   }
+  /*--padding-bottom: 40px;--*/
 
   footer h4 {
     padding-bottom: 5px;
@@ -878,7 +933,7 @@ http://www.tooplate.com/view/2098-health
 
   .copyright-text p,
   .footer-link a {
-    color: #858585;
+    color: #8282de;
     font-size: 12px;
     font-weight: 500;
   }
@@ -935,11 +990,11 @@ http://www.tooplate.com/view/2098-health
 
   .social-icon li a {
     border-radius: 100px;
-    color: #464646;
-    font-size: 15px;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
+    color: #8282de;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
     text-decoration: none;
     text-align: center;
     transition: all 0.4s ease-in-out;
@@ -947,8 +1002,8 @@ http://www.tooplate.com/view/2098-health
   }
 
   .social-icon li a:hover {
-    background: #4267b2;
-    color: #ffffff;
+    background: #53cdf1;
+    color: #212165;
   }
 
 
@@ -1012,8 +1067,8 @@ http://www.tooplate.com/view/2098-health
     }
     .navbar-default .navbar-nav li a {
       display: inline-block;
-      padding-top: 8px;
-      padding-bottom: 8px;
+      padding-top: 9px;
+      padding-bottom: 9px;
     }
 
     .news-sidebar {
@@ -1024,8 +1079,17 @@ http://www.tooplate.com/view/2098-health
       padding-top: 4em;
       padding-bottom: 4em;
     }
-  p {
-      padding-right: 280px;
+    .angle-up-btn a{
+    position: absolute;
+    left: 10px;
+  }
+    #about{
+     background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 900px;
+    background-color: #f5f5f5; }
+  .parrafo p {
+      padding-right: 100px;
     }
     footer {
       padding-top: 60px;
@@ -1046,7 +1110,15 @@ http://www.tooplate.com/view/2098-health
     .angle-up-btn {
       bottom: 10em;
     }
-  }
+   .team-thumb {
+    margin-bottom: 20px;
+   }
+   .profile figcaption {
+    display: block;
+   }
+   #content{
+    padding-left: 0px;}
+    #content span{<br>}
 
   @media only screen and (max-width: 639px) {
     h1 {
