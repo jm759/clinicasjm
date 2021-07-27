@@ -479,6 +479,8 @@ http://www.tooplate.com/view/2098-health
   }
   #cajaazul h3{
     color: #ffffff;
+    display: inline-block;
+    padding-left: 5px;
   }
   #cajaazul p{
     padding-top: 10px;
@@ -491,6 +493,8 @@ http://www.tooplate.com/view/2098-health
   }
   #cajaroja h3{
     color: #ffffff;
+    display: inline-block;
+    padding-left: 5px;
   }
   #cajaroja p{
     padding-top: 10px;
@@ -593,7 +597,10 @@ http://www.tooplate.com/view/2098-health
     transform: translateY(0px);
     top: -22em;
   }
-
+  .iconarea{
+    display: inline;
+    padding-bottom: 10px;
+  }
 
 
   /*---------------------------------------
