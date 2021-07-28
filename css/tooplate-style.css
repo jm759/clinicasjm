@@ -955,13 +955,13 @@ http://www.tooplate.com/view/2098-health
     background: #ffffff;
     border: 1px solid #f2f2f2;
     border-radius: 50%;
-    font-size: 20px;
-    color: #393939;
+    font-size: 23px;
+    color: #E30E20;
     display: inline-block;
     text-align: center;
     width: 40px;
     height: 40px;
-    line-height: 38px;
+    line-height: 35px;
     transition: transform 0.1s ease-in;
     transform: translateX(0);
   }
