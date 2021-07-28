@@ -378,7 +378,7 @@ http://www.tooplate.com/view/2098-health
     background-color: transparent;
   }
 
-  .navbar-default .navbar-toggle {
+.navbar-default .navbar-toggle {
     border: none;
     padding-top: 25px;
   }
@@ -387,8 +387,11 @@ http://www.tooplate.com/view/2098-health
     background: #212165;
     border-color: transparent;
     width: 25px;
+    height: 3px;
   }
-
+#rojito{
+  background: #E30E20;
+}
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus { 
     background-color: transparent;
