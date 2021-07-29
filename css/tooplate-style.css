@@ -137,14 +137,29 @@ http://www.tooplate.com/view/2098-health
     background-color: #151556;
   }
 /*--border-top: 1px solid #f2f2f2;--*/
-  .btn-gray {
-    background: #393939;
+  .btn-red{
+    background: #E30E20;
   }
-
+  .btn-red:hover{
+    color: #E30E20;
+    background: #fff;
+  }
   .btn-blue {
-    background: #4267b2;
+    background: #212165;
   }
-
+  .btn-blue:hover 
+  {
+    color: #212165;
+    background: #fff;
+  }
+  .btn-celeste{
+    background: #00ACDE;
+  }
+  .btn-celeste:hover 
+  {
+    color: #00ACDE;
+    background: #fff;
+  }
   .news-thumb {
     background: #ffffff;
     border-radius: 10px;
@@ -1135,6 +1150,9 @@ http://www.tooplate.com/view/2098-health
    .slider .item-first {
 
     background-position-x:70% ;
+   }
+   .news-thumb {
+    margin-bottom: 20px;
    }
   @media only screen and (max-width: 639px) {
     #home h1{
