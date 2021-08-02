@@ -674,9 +674,11 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       NEWS             
   -----------------------------------------*/
-
+  
   #news, #news-detail {
-    background: #53cdf1;
+    
+    background: no-repeat center/80% url("../images/fondo2.jpg");
+    background-size: cover;
   }
 
   #news-detail blockquote {
