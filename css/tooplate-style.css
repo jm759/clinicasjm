@@ -507,6 +507,8 @@ http://www.tooplate.com/view/2098-health
   }
   #cajaazul{
     background-color: #212165;
+    padding-bottom: 50px;
+    cursor: auto;
   }
   #cajaazul h3{
     color: #ffffff;
@@ -521,6 +523,8 @@ http://www.tooplate.com/view/2098-health
   }
   #cajaroja{
     background-color: #E30E20;
+    padding-bottom: 50px;
+    cursor: auto;
   }
   #cajaroja h3{
     color: #ffffff;
@@ -573,7 +577,7 @@ http://www.tooplate.com/view/2098-health
     border-radius: 0 0 10px 10px;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
+    cursor: auto;
   }
 
   .team-info {
