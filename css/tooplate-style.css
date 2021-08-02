@@ -1164,6 +1164,9 @@ http://www.tooplate.com/view/2098-health
    .news-thumb {
     margin-bottom: 20px;
    }
+   #text1 br{
+    display: none;
+   }
   @media only screen and (max-width: 639px) {
     #home h1{
       line-height: 1.2em;
