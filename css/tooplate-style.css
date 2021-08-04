@@ -100,6 +100,7 @@ http://www.tooplate.com/view/2098-health
 
   .section-title {
     padding-bottom: 20px;
+    padding-left: 15px;
   }
 
   .section-title h2 {
@@ -273,6 +274,13 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
+  #iconwsp{
+    font-size: 22px;
+    padding-right: 5px;
+  }
+  #textbtn{
+    padding-bottom: 22px;
+  }
   #icon-1{
     padding-right: 5px;
     padding-bottom: 2px;
@@ -356,8 +364,11 @@ http://www.tooplate.com/view/2098-health
     border-radius: 3px;
     color: #ffffff;
     font-weight: 600;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 17px;
   }
 
   .navbar-default .navbar-nav li.appointment-btn a:hover {
