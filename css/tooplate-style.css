@@ -274,13 +274,10 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
-  #iconwsp{
-    font-size: 22px;
-    padding-right: 5px;
-  }
-  #textbtn{
-    padding-bottom: 22px;
-  }
+ #iconwsp{
+  padding-right: 5px;
+  font-size: 20px;
+ }
   #icon-1{
     padding-right: 5px;
     padding-bottom: 2px;
