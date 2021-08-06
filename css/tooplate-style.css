@@ -181,7 +181,12 @@ http://www.tooplate.com/view/2098-health
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
+  .news-info a{
+    color: #212165;
+  }
+  .news-info a:hover{
+    color: #00ACDE;
+  }
   .author {
     border-top: 1px solid #f0f0f0;
     padding-top: 1.5em;
@@ -683,14 +688,22 @@ http://www.tooplate.com/view/2098-health
       NEWS             
   -----------------------------------------*/
   
-  #news, #news-detail {
+  #news{
     
-    background: no-repeat center/80% url("../images/fondo2.jpg");
+    background:linear-gradient(to bottom, #00e0ce, #00a1f2);
+
     background-size: cover;
   }
-
+  #news-detail{
+  background: #f5f5f5;}
+  #news-detail h4{
+    color:#00ACDE;
+  }
+  
   #news-detail blockquote {
     margin: 30px 0;
+    border-left: 6px solid #e30e20;
+    color: #212165;
   }
 
   .news-detail-thumb .news-image img {
@@ -725,7 +738,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .news-social-share {
-    text-align: center;
+    text-align: left;
     padding-top: 22px;
   }
 
@@ -810,7 +823,7 @@ http://www.tooplate.com/view/2098-health
   }
 
   .news-tags li a {
-    background: #393939;
+    background: #8282de;
     border-radius: 50px;
     color: #ffffff;
     display: inline-block;
@@ -825,11 +838,43 @@ http://www.tooplate.com/view/2098-health
   }
 
   .news-tags li a:hover {
-    background: #4267b2;
+    background: #fff;
+    color: #212165;
   }
+.news-detail-thumb p{
+  color: #757575;
+}
+
+/*---------------------------------------
+      NEWS DETAIL             
+  -----------------------------------------*/
+.left{
+  float: left;
+  padding: 0;
+  width: 50%;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.right{
+  width: 50%;
+  float: right;
+  margin: 0px 9px 0px 9px;
+  border-radius: 20px;
+}
+
+.media h4{
+  padding-top: 10px;
+}
 
 
-
+.media-heading a{
+  color: #212165;
+}
+.news-detail-thumb h2{
+  line-height: 5rem;
+}
   /*---------------------------------------
       APPOINTMENT             
   -----------------------------------------*/
@@ -1177,6 +1222,20 @@ http://www.tooplate.com/view/2098-health
    #text1 br{
     display: none;
    }
+
+   .left{
+  float: left;
+  padding: 0 0 10px 0;
+  width: 100%;
+  border-radius: 10px;
+  margin: 0;
+  }
+  .parr{
+  padding: 0;
+    }
+.news-social-share {
+    text-align: center;}
+
   @media only screen and (max-width: 639px) {
     #home h1{
       line-height: 1.2em;
