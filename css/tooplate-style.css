@@ -1236,6 +1236,11 @@ http://www.tooplate.com/view/2098-health
 .news-social-share {
     text-align: center;}
 
+.news-detail-thumb h2 {
+    line-height: 4rem;
+}
+
+
   @media only screen and (max-width: 639px) {
     #home h1{
       line-height: 1.2em;
