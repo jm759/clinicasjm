@@ -923,7 +923,16 @@ http://www.tooplate.com/view/2098-health
     background: #53cdf1;
     color: #ffffff;
   }
-
+  #subti{
+    margin: 0;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color: #00ACDE;
+  }
+  #text1{
+    margin: 0;
+  }
 
   /*---------------------------------------
      FOOTER              
