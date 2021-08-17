@@ -1037,6 +1037,13 @@ http://www.tooplate.com/view/2098-health
     font-weight: 500;
   }
 
+  .copyright-text a{
+    color: #8282de;
+  }
+  .copyright-text a:hover {
+    color: #F0E91C;
+  }
+
   .footer-link a {
     font-size: 12px;
     display: inline-block;
