@@ -1131,7 +1131,10 @@ http://www.tooplate.com/view/2098-health
   #subti2{
     color: #757575;
   }
-
+  
+  #pol br{
+    display: none;
+  }
 
   /*---------------------------------------
      RESPONSIVE STYLES              
