@@ -1121,6 +1121,9 @@ http://www.tooplate.com/view/2098-health
     height: auto;
   }
 
+  #prox br{
+    display: none;
+  }
 
 
 
@@ -1280,6 +1283,9 @@ http://www.tooplate.com/view/2098-health
     line-height: 4rem;
 }
 
+#prox br{
+    display: inline-block;
+  }
 
   @media only screen and (max-width: 639px) {
     #home h1{
